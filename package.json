@@ -1,0 +1,17 @@
+{
+  "name": "validate-pack",
+  "version": "1.0.1",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "build-d.ts": "npx -p typescript tsc lib/index.js --declaration --allowJs --emitDeclarationOnly --outDir ./lib"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
+}
