@@ -1,3 +1,8 @@
-export function greet(name: string): string {
-    return `Hello ${name}`
+import {sum} from './functions'
+
+
+console.log(sum(1, 2))
+
+export{
+    sum
 }
