@@ -1,8 +1,11 @@
-import {sum} from './functions'
+import Validator from './Validator'
+import Required from './Rules/Required'
 
+const validator = new Validator(
+  { username: null },
+  { username: [new Required] }
+)
 
-console.log(sum(1, 2))
+console.log('Validator is failed?', validator.fails())
+console.log('Errors bag:', validator.errors())
 
-export{
-    sum
-}
