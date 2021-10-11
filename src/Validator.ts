@@ -1,4 +1,7 @@
+import { Obj } from './Contracts/Object'
 import MessageBag from './MessageBag'
+import {Rule} from './Contracts/Rule'
+
 
 export default class Validator
 {

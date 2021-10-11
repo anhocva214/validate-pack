@@ -1,4 +1,4 @@
-interface Rule {
+export interface Rule {
     /**
      * Determine if the validation rule passes.
      *

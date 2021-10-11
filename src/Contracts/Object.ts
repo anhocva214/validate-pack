@@ -1,3 +1,3 @@
-type Obj = {
+export type Obj = {
   [key: string]: any
 }

@@ -1,3 +1,4 @@
+import { Obj } from './Contracts/Object';
 export default class MessageBag {
     /**
      * All of registerd messages.

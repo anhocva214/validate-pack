@@ -1,3 +1,5 @@
+import {Obj} from './Contracts/Object'
+
 export default class MessageBag
 {
   /**
