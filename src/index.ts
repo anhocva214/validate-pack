@@ -1,9 +1,13 @@
 import Validator from './Validator'
-import Required from './Rules/Required'
+import {
+  Email,
+  Required,
+  MinLength
+} from './Rules'
 
 const validator = new Validator(
-  { username: null },
-  { username: [new Required] }
+  { username: 'testeetstst@gmailcom' },
+  { username: [new Required, new MinLength(4), new Email] }
 )
 
 console.log('Validator is failed?', validator.fails())

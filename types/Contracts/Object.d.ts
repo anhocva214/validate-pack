@@ -1,3 +1,3 @@
-declare type Obj = {
+export declare type Obj = {
     [key: string]: any;
 };
