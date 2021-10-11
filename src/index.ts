@@ -13,3 +13,8 @@ const validator = new Validator(
 console.log('Validator is failed?', validator.fails())
 console.log('Errors bag:', validator.errors())
 
+
+export {
+  Validator
+}
+
